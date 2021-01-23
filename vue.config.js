@@ -1,3 +1,4 @@
 module.exports = {
-  "outputDir": 'docs', // 2. 出力先
+  outputDir: 'docs',
+  publicPath: './',
 }

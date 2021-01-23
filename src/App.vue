@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style>
-/*@import "./css/styles.css";*/
+@import "./css/styles.css";
 
 #app {
   font-family: "SourceHanSansJP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
