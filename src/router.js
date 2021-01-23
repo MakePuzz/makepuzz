@@ -6,10 +6,10 @@ Vue.use(Router)
 
 export default new Router({
     mode: 'history',
+    base: process.env.ROOT_BASE,
     routes: [
-        { path: '/', redirect: '/home' },
         {
-            path: '/home',
+            path: '/',
             name: 'Home',
             component: Home,
             meta: {title: 'Home'}
