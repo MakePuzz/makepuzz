@@ -1,24 +1,17 @@
 <template>
-  <v-app id="app">
-    <v-main>
-      <v-row>
-        <v-col cols="2"/>
-        <v-col cols="8">
-          <router-view/>
-        </v-col>
-        <v-col cols="2"/>
-      </v-row>
-    </v-main>
+  <div id="app">
+    <main>
+      <router-view/>
+    </main>
     <footer class="footer">
-      <v-container>
+      <b-container>
         <p class="text-center">© 2020 – MakePuzz</p>
-      </v-container>
+      </b-container>
     </footer>
-  </v-app>
+  </div>
 </template>
 
 <script>
-
 export default {
   name: 'App',
 
@@ -40,7 +33,7 @@ export default {
 </script>
 
 <style>
-@import "./css/styles.css";
+/*@import "./css/styles.css";*/
 
 #app {
   font-family: "SourceHanSansJP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;

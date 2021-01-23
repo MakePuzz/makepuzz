@@ -1,12 +1,9 @@
 <template>
-  <div
-      style="width:350px;"
-  >
-    <Timeline
-        :id="twitterId"
-        sourceType="profile"
-        :options="{ 'height': 600 }"/>
-  </div>
+  <Timeline
+      :id="twitterId"
+      sourceType="profile"
+      :options="{ 'height': 600 }"
+  />
 </template>
 
 <script>

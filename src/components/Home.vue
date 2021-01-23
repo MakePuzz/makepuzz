@@ -1,34 +1,34 @@
 <template>
-  <v-container>
-    <v-row class="my-5">
-      <v-col cols="4">
-        <v-img
+  <b-container>
+    <b-row class="mx-2 my-5">
+      <b-col md="4">
+        <b-img
             :src="require('../assets/images/logo_c.png')"
             height=200
             width=200
             alt="MakePuzz logo"
-            class="ml-10"
+            class="mx-auto d-block"
         />
-      </v-col>
-      <v-col cols="8">
-        <p class="text-h4 mb-0">We are MakePuzz</p>
-        <p class="text-subtitle-1 font-italic font-weight-regular">Make a buzz with making a puzzle</p>
+      </b-col>
+      <b-col md="8" class="mt-3 mt-md-0">
+        <h2>We are MakePuzz</h2>
+        <p><i>Make a buzz with making a puzzle</i></p>
         <p>当ページは現在メンテナンス中です。お問い合わせは <a href="https://twitter.com/MakePuzz_PR">公式Twitter</a> までお願いいたします。</p>
-      </v-col>
-    </v-row>
+      </b-col>
+    </b-row>
     <hr>
-    <v-row class="mx-2 my-5">
-      <v-col cols="7">
+    <b-row class="mx-2 my-5">
+      <b-col md="7">
         <h3>What's New</h3>
         <ul>
           <li>2020-11-30：HPを開設しました</li>
         </ul>
-      </v-col>
-      <v-col cols="5" align="right">
+      </b-col>
+      <b-col md="5" class="mt-4 border-left">
         <Twitter/>
-      </v-col>
-    </v-row>
-  </v-container>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
