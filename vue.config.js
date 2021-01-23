@@ -1,6 +1,6 @@
 module.exports = {
   outputDir: 'docs',
-  publicPath: '/makepuzz',
+  publicPath: './',
   filenameHashing: false,
   productionSourceMap: false,
 }
