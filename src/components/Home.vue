@@ -14,6 +14,8 @@
         <h2>We are MakePuzz</h2>
         <p><i>Make a buzz with making a puzzle</i></p>
         <p>当ページは現在メンテナンス中です。お問い合わせは <a href="https://twitter.com/MakePuzz_PR">公式Twitter</a> までお願いいたします。</p>
+        <p><a href="https://twitter.com/MakePuzz_PR">公式Twitter</a>ではほぼ毎日新作を投稿しています。</p>
+        <p>過去に投稿したパズルは<a href="https://t.co/09DuFHPV1B?amp=1">公式note</a>をご覧ください(随時更新中)</p>
       </b-col>
     </b-row>
     <hr>
@@ -21,6 +23,7 @@
       <b-col md="7">
         <h3>What's New</h3>
         <ul>
+          <li>2020-02-04：<a href="https://t.co/09DuFHPV1B?amp=1">note</a>を始めました</li>
           <li>2020-11-30：HPを開設しました</li>
         </ul>
       </b-col>
