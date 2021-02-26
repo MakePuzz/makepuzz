@@ -1,8 +1,6 @@
 module.exports = {
   outputDir: 'docs',
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/makepuzz/'
-      : '/',
+  publicPath: '/',
   filenameHashing: false,
   productionSourceMap: false,
 }
