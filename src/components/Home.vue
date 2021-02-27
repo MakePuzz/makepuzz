@@ -23,7 +23,7 @@
       <b-col md="7">
         <h3>What's New</h3>
         <ul>
-          <li>2020-02-04：<a href="https://t.co/09DuFHPV1B?amp=1">note</a>を始めました</li>
+          <li>2021-02-04：<a href="https://note.com/makepuzz_pr">note</a>を始めました</li>
           <li>2020-11-30：HPを開設しました</li>
         </ul>
       </b-col>
