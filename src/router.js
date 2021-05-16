@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './components/Home'
 import index from './components/game/index'
+import oekaki from './components/game/oekaki'
 
 Vue.use(Router)
 
@@ -20,6 +21,12 @@ export default new Router({
             name: 'index',
             component: index,
             meta: {title: 'index'}
-        }
+        },
+        {
+            path: '/oekaki',
+            name: 'oekaki',
+            component: oekaki,
+            meta: {title: 'oekaki'}
+        },
     ]
 })

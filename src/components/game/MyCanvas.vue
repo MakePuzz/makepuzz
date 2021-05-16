@@ -66,7 +66,7 @@ export default {
     // CreateJS などを使うときにも、ここで canvas と紐付ける
     // console.log(this.$el)
     this.ctx = this.$el.getContext('2d')
-    this.draw(this.radius)
+    //this.draw(this.radius)
     this.board.init_board()
     this.display(15,15,30)
   },
